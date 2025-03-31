@@ -1,0 +1,33 @@
+{
+  "name": "002-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx src",
+    "eslint:dump": "eslint --print-config ./.eslint.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LizaSmeh/002-TypeScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LizaSmeh/002-TypeScript/issues"
+  },
+  "homepage": "https://github.com/LizaSmeh/002-TypeScript#readme",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.28.0",
+    "@typescript-eslint/parser": "^8.28.0",
+    "eslint": "^9.23.0",
+    "eslint-plugin-promise": "^7.2.1",
+    "globals": "^16.0.0",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.28.0"
+  }
+}
